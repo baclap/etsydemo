@@ -47,4 +47,4 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # paperclip
 gem "paperclip", "~> 4.2"
 
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
