@@ -8,7 +8,7 @@ class Listing < ActiveRecord::Base
 			:styles => { :medium => "200x", :thumb => "100x100>" }, 
 			:default_url => "missing_:style.png", 
 			:storage => :dropbox,
-			:dropbox_credentials => Rails.root.join("config/dropbox.yml")
+			:dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 			:path => ":style/:id_:filename"
 	end
 	validates_attachment_content_type :image, 
