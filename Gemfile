@@ -51,3 +51,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem 'rails_12factor'
 
 gem "figaro"
+
+gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
+gem 'pry-byebug'
+
+gem 'devise'
